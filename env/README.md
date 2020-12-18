@@ -1,0 +1,1 @@
+structure from https://github.com/oxwhirl/smac

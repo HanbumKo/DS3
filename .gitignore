@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# vscode
+.idea/
+.vscode/
+
+# pytorch
+*.pth
+
+# misc
+*.png
+*.csv
+
+drm/credentials.py
+console.txt
+saved_metrics/
+run_configs/
+results/
+wandb/
+.DS_Store
+*.xlsx
+viz/
+results/
+models/
+wandb/
+*.avi
+render/
+act_npy/
