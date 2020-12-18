@@ -5,10 +5,10 @@ The DTPM class is used to initialize the power models and evaluate the PE state 
 The two main methods are evaluate_PE and evaluate_idle_PEs, which invoke the DTPM policies, tracing and throttling mechanisms, and update the power numbers for the clusters.
 '''
 import sys
-import common
-import DTPM_power_models
-import DASH_Sim_utils
-import DTPM_policies
+import env.multiagent_ds3.common as common
+import env.multiagent_ds3.DTPM_power_models as DTPM_power_models
+import env.multiagent_ds3.DASH_Sim_utils as DASH_Sim_utils
+import env.multiagent_ds3.DTPM_policies as DTPM_policies
 
 class DTPMmodule:
     '''!

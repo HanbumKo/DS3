@@ -11,7 +11,7 @@ from docplex.cp.model import *
 import docplex.cp.utils_visu as visu
 from docplex.cp.config import context
 import docplex.cp.parameters as params
-import common
+import env.multiagent_ds3.common as common
 
 def CP(env_time, P_elems, resource_matrix, domain_applications, generated_jobs):
     '''!

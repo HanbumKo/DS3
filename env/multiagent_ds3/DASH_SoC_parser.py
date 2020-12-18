@@ -5,8 +5,8 @@ import sys
 import platform
 import numpy as np
 
-import common                                                                   # The common parameters used in DASH-Sim are defined in common_parameters.py
-import clusters
+import env.multiagent_ds3.common as common
+import env.multiagent_ds3.clusters as clusters
 
 
 def resource_parse(resource_matrix, file_name):

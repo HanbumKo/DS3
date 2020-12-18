@@ -8,8 +8,8 @@ import numpy as np
 import sys
 import copy
 
-import DASH_Sim_utils
-import common
+import env.multiagent_ds3.DASH_Sim_utils as DASH_Sim_utils
+import env.multiagent_ds3.common as common
 
 # Thermal model (Odroid XU3 board)
 A_model = [[0.9928,    0.000566,   0.004281,  0.0003725, 1.34e-5  ],

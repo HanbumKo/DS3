@@ -327,9 +327,9 @@ def run_simulator(scale_values=common.scale_values_list):
                 for i in range(common.simulation_length):
                     env.step()
                     # print(len(DASH_resources))
-                    # if sim_core.in_ready_list:
+                    if sim_core.in_ready_list:
                         # print(DASH_resources[4].enabled)
-                        # print("in_ready_list", i)
+                        print("in_ready_list", i)
                 
                 # Now, the simulation has completed
                 # Next, process the results

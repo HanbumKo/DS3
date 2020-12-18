@@ -19,9 +19,9 @@ import ast
 from math import exp
 import numpy as np
 
-import common
-import DTPM_power_models
-import DASH_Sim_utils
+import env.multiagent_ds3.common as common
+import env.multiagent_ds3.DTPM_power_models as DTPM_power_models
+import env.multiagent_ds3.DASH_Sim_utils as DASH_Sim_utils
 
 def initialize_frequency(cluster):
     '''!

@@ -11,8 +11,8 @@ result_list = [[],[]]
 shutil.copyfile("config_Files/config_file_scheduling.ini", "config_file.ini")
 
 import configparser
-import common
-import DASH_Sim_v0
+import env.multiagent_ds3.common as common
+import env.multiagent_ds3.DASH_Sim_v0 as DASH_Sim_v0
 
 # read the initial configuration file to make modification on the parameters needed for different simulations
 config = configparser.ConfigParser()

@@ -9,9 +9,9 @@ import matplotlib.pyplot as plt
 import sys
 import simpy
 
-import common
-import DASH_Sim_utils
-import CP_models
+import env.multiagent_ds3.common as common
+import env.multiagent_ds3.DASH_Sim_utils as DASH_Sim_utils
+import env.multiagent_ds3.CP_models as CP_models
            
 class JobGenerator:
     '''!

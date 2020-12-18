@@ -8,8 +8,8 @@ import networkx as nx
 import numpy as np
 import copy
 
-import common                                                                   # The common parameters used in DASH-Sim are defined in common_parameters.py
-import DTPM_power_models
+import env.multiagent_ds3.common as common
+import env.multiagent_ds3.DTPM_power_models as DTPM_power_models
 
 import pickle
 

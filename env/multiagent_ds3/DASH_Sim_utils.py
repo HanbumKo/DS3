@@ -7,7 +7,7 @@ import csv
 import fnmatch
 import sys
 
-import common
+import env.multiagent_ds3.common as common
 
 trace_list = [common.TRACE_FILE_SYSTEM, common.TRACE_FILE_TASKS, common.TRACE_FILE_FREQUENCY, common.TRACE_FILE_PES, common.TRACE_FILE_TEMPERATURE, common.TRACE_FILE_LOAD, common.TRACE_FILE_TEMPERATURE_WORKLOAD]
 

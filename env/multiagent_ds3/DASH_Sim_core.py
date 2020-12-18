@@ -4,9 +4,9 @@
 import sys
 import numpy as np
 
-import common                                                                   # The common parameters used in DASH-Sim are defined in common_parameters.py
-import DTPM
-import DTPM_policies
+import env.multiagent_ds3.common as common
+import env.multiagent_ds3.DTPM as DTPM
+import env.multiagent_ds3.DTPM_policies as DTPM_policies
 
 # Define the core of the simulation engine
 # This function calls the scheduler, starts/interrupts the tasks,

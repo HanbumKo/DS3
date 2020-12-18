@@ -8,7 +8,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import math
 
-import common                                                                    # The common parameters used in DASH-Sim are defined in common_parameters.py
+import env.multiagent_ds3.common as common
 
 def job_parse(jobs, file_name):
     '''!
